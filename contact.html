@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RadicalPhoto Contact</title>
+	<link href='http://fonts.googleapis.com/css?family=Gruppo' rel='stylesheet' type='text/css'>
+	<link type="text/css" rel="stylesheet" href="css/radicalphoto.css">
+</head>
+<body>
+
+<div id="header">
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="gallery.html">Gallery</a></li>
+		<li><a href="about.html">About</a></li>
+		<li><a href="contact.html">Contact</a>
+	</ul>
+
+	<h1>RadicalPhoto</h1>
+
+</div>
+
+<div id="main_wrapper">
+
+	<div id="content">
+	<h2>Contact RadicalPhoto</h2>
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+
+	<form name="contact_form" id="contact_form" action="http://derekallard.com/echo.php" method="post">
+
+		<p class="er_style" id="error_section">All fields are required. You are missing <span id="error"></span> field(s).</p>
+        
+
+		<p><label>Name: <input type="text" size="25" name="name" id="name" ></label> <span id="er_name" class="er_style">Please fill in the Name field</span></p>
+        
+		<p><label>Email: <input type="text" size="25" name="email" id="email"></label><span id="er_email" class="er_style">Please fill in the Email field</span></p>
+        
+		<p><label>Message:<br> <textarea cols="50" rows="5" name="message" id="message"></textarea><span id="er_message" class="er_style">Please fill in the Message field</span></label><span id="er_message">Please fill in the Message field</span></p>
+		<p><input type="submit" value="Contact Us"></p>
+        
+	</form>
+
+	</div>
+
+	<div id="footer">
+	<p>All content &copy; 2011</p>
+	</div>
+
+</div>
+<script src="js/contact.js"></script>
+
+</body>
+</html>

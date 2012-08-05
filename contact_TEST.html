@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RadicalPhoto Contact</title>
+	<link href='http://fonts.googleapis.com/css?family=Gruppo' rel='stylesheet' type='text/css'>
+	<link type="text/css" rel="stylesheet" href="css/radicalphoto.css">
+    <style>
+	.highlight {
+		border:1px solid red;
+		}
+	</style>
+</head>
+<body>
+
+<div id="header">
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="gallery.html">Gallery</a></li>
+		<li><a href="about.html">About</a></li>
+		<li><a href="contact.html">Contact</a>
+	</ul>
+
+	<h1>RadicalPhoto</h1>
+
+</div>
+
+<div id="main_wrapper">
+
+	<div id="content">
+	<h2>Contact RadicalPhoto</h2>
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+
+	<form name="contact_form" id="contact_form" action="http://derekallard.com/echo.php" method="post">
+
+		<p class="er_style" id="error_section">All fields are required. You are missing <span id="error"></span> field(s).</p>
+        
+
+		<p><label>Name: <input type="text" size="25" name="name" id="name" ></label> <span id="er_name" class="er_style">Please fill in the Name field</span></p>
+        
+		<p><label>Email: <input type="text" size="25" name="email" id="email"></label><span id="er_email" class="er_style">Please fill in the Email field</span></p>
+        
+		<p><label>Message:<br> <textarea cols="50" rows="5" name="message" id="message"></textarea><span id="er_message" class="er_style">Please fill in the Message field</span></label><span id="er_message">Please fill in the Message field</span></p>
+		<p><input type="submit" value="Contact Us" id="submit"></p>
+        
+	</form>
+
+	</div>
+
+	<div id="footer">
+	<p>All content &copy; 2011</p>
+	</div>
+
+</div>
+<script>
+
+document.getElementById("submit").onclick(function(){
+	alert("g");
+	return false
+	
+	/*var f = document.contact_form;
+	var error=0;
+	
+	for(var i = 0; i < f.elements.length; i++) {
+		if (f.elements[i].value==""){
+			alert("not working");
+			}
+
+	}*/
+})
+/*
+var f = document.getElementById('contact-form');
+var error=0;
+
+
+	var name = $('input[name=name]');
+	var email = $('input[name=email]');
+	var website = $('input[name=url]');
+	var message = $('textarea[name=message]');
+
+	for(var i = 0; i < f.elements.length; i++) {
+		if (f.elements[i].value==""){
+			error=error+1;
+			alert(error)
+			} 
+			
+			if (name.val()=='') {
+			name.addClass('hightlight');
+			return false;
+		} else name.removeClass('hightlight');
+		 
+		if (email.val()=='') {
+			email.addClass('hightlight');
+			return false;
+		} else email.removeClass('hightlight');
+		
+		
+		
+		if (message.val()=='') {
+			message.addClass('hightlight');
+			return false;
+		} else message.removeClass('hightlight');
+			
+	}
+*/
+	
+
+</script>
+
+</body>
+</html>

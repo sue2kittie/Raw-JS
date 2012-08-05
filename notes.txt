@@ -1,0 +1,14 @@
+//html fixing:
+add alt attribute to the image tag
+
+//header.png error. I made sure the path is correct but still doesn't work
+
+//index.html
+is it one time or keep running the function every a few seconds?
+
+
+//gallery rollover 
+works in Chome and IE doens't work in Firefox
+
+
+//form validation flag is not finished
